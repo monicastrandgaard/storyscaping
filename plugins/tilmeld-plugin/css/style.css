@@ -29,10 +29,10 @@ body
 .login-face {
     width: 150px;
     height: 160px;
-    left: -125px;
+    left: -285px;
     position: relative;
     margin: -80px auto;
-    top: 160px;
+    top: 100px;
 }
 
 .login-face>img {
