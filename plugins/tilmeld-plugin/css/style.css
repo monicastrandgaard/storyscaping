@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     background: #DCD7E5;
+text-transform: none;
 }
 
 .login-form {
@@ -77,6 +78,7 @@ input[type="email"]
     border: 2px solid #ddd !important;
     border-radius: 20px !important;
     font-family: 'Roboto', sans-serif !important;
+	text-transform: none;
 }
 
 .fa
@@ -137,11 +139,11 @@ input::-webkit-input-placeholder {
 }
 
 input#username {
-    width: 90%;
+    width: 80%;
 }
 
 input#email {
-    width: 90%;
+    width: 80%;
 }
 
 div#submitForm {
