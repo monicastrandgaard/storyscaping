@@ -1,11 +1,11 @@
 <?php
 /*
-* Plugin Name: WordPress Newsletter Plugin
-* Plugin URI: http://wpcollaborations.startlearning.dk/
-* Description: This is a WordPress Newsletter Plugin based on HTML5, CSS, JS and PHP
-* Version: 2.9.7
-* Author: Murat Kilic
-* Author: http://wpcollaborations.startlearning.dk/
+* Plugin Name: Tilmeld Plugin
+* Plugin URI: http://storyscaping.annesofiepedersen.com/
+* Description: This is a signup plugin based on HTML5, CSS, JS and PHP
+* Version: 2.9.8
+* Author: Majken Iversen, Cecilie Thierry, Anne Sofie Pedersen og Monica Strandgaard Petersen
+* Author: http://storyscaping.annesofiepedersen.com/
 * License: GPL2
 */
 
