@@ -159,48 +159,9 @@ input#submitBtn {
     animation: shake 1s !important;
 }
 
-@-webkit-keyframes shake
-{
-    0%{
-        left: 0px;
-    }
-    20%{
-        left: -15px;
-    }
-    40%{
-        left: 15px;
-    }
-    60%{
-        left: 15px;
-    }    
-    80%{
-        left: -15px;
-    }
-    100%{
-        left: 0px;
-    }
-}
-
-@keyframes shake
-{
-    0%{
-        left: 0px;
-    }
-    20%{
-        left: -15px;
-    }
-    40%{
-        left: 15px;
-    }
-    60%{
-        left: 15px;
-    }    
-    80%{
-        left: -15px;
-    }
-    100%{
-        left: 0px;
-    }
+.slide-top {
+	-webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 #promotion-header
