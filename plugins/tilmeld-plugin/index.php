@@ -23,7 +23,9 @@ function newsletter_form()
     $content .= '<section class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
-    $content .= '<p id="promotion-body-text">Sign up for our Newsletter and learn to get fit at home with 5 Effective Low-Impact Workouts!</p>';
+    $content .= '<p id="promotion-body-text">Er der en guide gemt i maven på dig? Brænder du inde med en masse tips og idéer til, hvad man kan opleve i din by? Så har vi brug for dig - meld dig som lokal guide hos Truestory og få muligheden for at udleve din indre guide! 
+<br>Udfyld felterne nedenfor, så kontakter vi dig.
+</p>';
     $content .= '</div>';
     $content .= '<div class="input">';
     $content .= '<input type="text" id="username" placeholder="Dit navn" name="username" required><i class="fa fa-user fa-1x"></i>';
