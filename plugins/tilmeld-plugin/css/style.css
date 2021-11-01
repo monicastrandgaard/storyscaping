@@ -75,7 +75,7 @@ input[type="text"],
 input[type="email"]
 {
     border: 2px solid #ddd !important;
-    border-radius: 10px !important;
+    border-radius: 20px !important;
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -91,11 +91,13 @@ input[type="email"]
 i.fa.fa-user.fa-1x {
     right: 16% !important;
     top: -14% !important;
+  	color: #3B2268;
 }
 
 i.fa.fa-envelope.fa-1x {
     right: 16% !important;
     top: -14% !important;
+  	color: #3B2268;
 }
 
 input[type="text"]:focus,
