@@ -2,17 +2,17 @@ body
 {
     margin: 0;
     padding: 0;
-    background: #DCD7E5;
-text-transform: none;
+    background: #333;
+   	text-transform: none;
 }
 
 .login-form {
-    width: 800px;
+    width: 700px;
     height: 500px;
     position: absolute;
     padding: 10px 10px;
-    background: #006a8b;
-    left: 30%;
+    background: #DCD7E5;
+    left: 20%;
     top: -300%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -36,6 +36,11 @@ text-transform: none;
     top: 100px;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 .login-face>img {
     width: 205px;
     height: 240px;
@@ -44,12 +49,6 @@ text-transform: none;
     transition: transform .8s ease-in-out !important;
     transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out !important;
     
-}
-
-.login-face>img:hover
-{
-    -webkit-transform: rotate(360deg) !important;
-          transform: rotate(360deg) !important;
 }
 
 .form
@@ -64,12 +63,10 @@ text-transform: none;
 {
     width: 56%;
     height: 50px;
-    background: #006b8e;
+    background: #DCD7E5;
     position: relative;
     margin: 10px auto;
     float: right;
-    
-    
 }
 
 input[type="text"],
@@ -78,7 +75,7 @@ input[type="email"]
     border: 2px solid #ddd !important;
     border-radius: 20px !important;
     font-family: 'Roboto', sans-serif !important;
-	text-transform: none;
+  	text-transform: none;
 }
 
 .fa
@@ -87,7 +84,6 @@ input[type="email"]
     right: 5px;
     top: 0px;
     padding-top: 12px;
-    color: gray;
 }
 
 i.fa.fa-user.fa-1x {
@@ -140,10 +136,12 @@ input::-webkit-input-placeholder {
 
 input#username {
     width: 80%;
+  	height: 40px;
 }
 
 input#email {
     width: 80%;
+  	height: 40px;
 }
 
 div#submitForm {
@@ -174,6 +172,7 @@ input#submitBtn {
     width: 55%;
     margin-top: 0px;
     margin-bottom: 0px;
+ 	text-transform: none;
 }
 
 #promotion-body {
@@ -194,28 +193,6 @@ input#submitBtn {
     letter-spacing:0px;
    padding-top: 10px;
     width: 50%;
-}
-
-#promotion-footer {
-    position: relative;
-    left: 230px;
-    top: 125px;
-    padding-top: 2px;
-}
-
-#promotion-footer-text
-{
-    text-align:left;
-    font-family:Montserrat;
-    color:#FFFFFF;
-    font-size:10px;
-    font-weight:300;
-    line-height:1.2;
-    letter-spacing:0px;
-    padding-left: 0px;
-    width: 55%;
-    margin-top: 20px;
-    margin-left: -30px;
 }
 
 .popupCloseButton {
