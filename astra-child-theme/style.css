@@ -5,25 +5,28 @@
  Author:       Anne Sofie Pedersen, Cecilie Thierry, Monica Strandgaard, Majken Iversen
  Author URI:   http://storyscaping.annesofiepedersen.com
  Template:     astra
- Version:      1.0.0
+ Version:      1.0.5
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
 
+/* Styling af knapper */
+
 a#popup_button {
-    background-color: #fff;
-    color: #6e539e;
-    border-color: #6e539e;
-    border-width: 2px;
-    border-style: solid;
+    color: #fff;
+    background-color: #e00057;
+    border-width: 1px;
+    border-color: #e00057;
+  	border: solid;
+    border-radius: 20px 20px;
 }
 
 a#popup_button:hover {
-background-color: #fff;
-    color: #3b2268;
-    border-color: #3b2268;
-    border-width: 2px;
-    border-style: solid;
-}
+	background-color: #fff;
+    color: #e00057;
+    border-color: #e00057;
+    border-width: 1px;
+  	border: solid;
+  	border-radius: 20px 20px;
