@@ -18,7 +18,7 @@ body
     top: -300%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    border-bottom: 5px solid gray;
+    border-bottom: 3px solid #6E539E;
     border-radius: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -209,7 +209,7 @@ input#submitBtn {
 #promotion-header-title {
     text-align: left;
     font-family: Montserrat;
-    color: #fd5c21;
+    color: #E00057;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.3;
