@@ -5,7 +5,7 @@
  Author:       Anne Sofie Pedersen, Cecilie Thierry, Monica Strandgaard, Majken Iversen
  Author URI:   http://storyscaping.annesofiepedersen.com
  Template:     astra
- Version:      1.0.7
+ Version:      1.0.9
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -14,7 +14,7 @@
 
 /* Styling af knapper */
 
-a#popup_button {
+a.elementor-button.elementor-size-sm {
     color: #fff;
     background-color: #e00057;
     border-width: 1px;
@@ -23,13 +23,14 @@ a#popup_button {
     border-radius: 20px 20px;
 }
 
-a#popup_button:hover {
+a.elementor-button.elementor-size-sm:hover {
 	background-color: #fff;
     color: #e00057;
     border-color: #e00057;
     border-width: 1px;
   	border: solid;
   	border-radius: 20px 20px;
+  	cursor: pointer;
 }
 
 a#seflere_button{
@@ -43,12 +44,13 @@ a#seflere_button{
 }
 
 a#seflere_button:hover{
-  background-color: #fff;
+  	background-color: #fff;
     color: #e00057;
     border-color: #e00057;
     border-width: 1px;
   	border: solid;
   	border-radius: 20px 20px;
+  	cursor: pointer;
 }
 
 a#back_button {
@@ -67,4 +69,5 @@ a#back_button:hover {
     border-width: 1px;
   	border: solid;
   	border-radius: 20px 20px;
+  	cursor: pointer;
 }
