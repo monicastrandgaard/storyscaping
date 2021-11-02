@@ -126,7 +126,11 @@ input[type="submit"] {
 
 input[type="submit"]:hover
 {
-    opacity: 0.9 !important;
+  	background-color: #fff;
+    color: #3b2268;
+    border-color: #3b2268;
+    border-width: 2px;
+    border-style: solid;
 }
 
 input,
