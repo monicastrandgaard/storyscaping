@@ -203,9 +203,22 @@ input#submitBtn {
 /* Her ændres udseende på krydsknappen */
 
 .popupCloseButton {
-    margin: 40px;
-    background-color: transparent;
-    border: none;
+background-color: transparent;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   font-family: Montserrat, sans-serif;
+   font-weight: bold;
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   font-size: 26px;
+   line-height: 26px;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   color: #3B2268;
+   z-index: 1;
 }
 
 .error-msg 
