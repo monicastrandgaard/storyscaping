@@ -303,3 +303,14 @@ input#submitBtn {
 ::-ms-input-placeholder { /* Microsoft Edge */ 
     color: grey !important;  
 } 
+
+
+/* Her ændres udseende på krydsknappen */
+
+.popupCloseButton {
+    margin: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+
