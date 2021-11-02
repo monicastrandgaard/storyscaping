@@ -6,7 +6,7 @@ body
    	text-transform: none;
 }
 
-/* Styling af selve plugin */ 
+/* Styling af selve popup */ 
 
 #login-form {
     width: 800px;
@@ -16,16 +16,9 @@ body
     background: #DCD7E5;
     left: 15%;
     top: -300%;
-    /*-webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);*/
     border-bottom: 3px solid #6E539E;
     border-radius: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: none;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
     z-index: 1;
 }
 
@@ -38,6 +31,13 @@ body
     top: 100px;
 }
 
+.form
+{
+    width: 100%;
+    position: relative;
+    margin: 25px -5px;
+}
+
 /* Styling af luftballon-img */ 
 
 #luftballon{
@@ -46,14 +46,6 @@ body
   	margin-top: -80px;
   	position: absolute;
   	right: 10px;
-}
-
-.form
-{
-    width: 100%;
-    position: relative;
-    margin: 25px -5px;
-    
 }
 
 /* Styling af input og tekst */ 
@@ -114,14 +106,6 @@ i.fa.fa-pencil.fa-1x {
   	color: #3B2268;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="city"]:focus,
-input[type="about"]:focus
-{
-    border: 2px solid #0AC986 !important;
-}
-
 /* Styling af submit-button */
 
 input[type="submit"] {
@@ -163,21 +147,25 @@ input::-webkit-input-placeholder {
 input#username {
     width: 80%;
   	height: 40px;
+  	color: black;
 }
 
 input#email {
     width: 80%;
   	height: 40px;
+  	color: black;
 }
 
 input#city {
     width: 80%;
   	height: 40px;
+  	color: black;
 }
 
 input#about {
     width: 80%;
   	height: 50px;
+  	color: black;
 }
 
 div#submitForm {
@@ -276,14 +264,16 @@ input#submitBtn {
     animation: shake 1s;
 }
 
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: grey;
 }
 
 :-ms-input-placeholder { /* Firefox, Chrome, Opera */ 
-    color: grey !important; 
+    color: pink !important; 
 }
 
+/* Farven på placeholder-teksten på Firefox, Chrome og Opera */
 ::placeholder { /* Firefox, Chrome, Opera */ 
     color: grey !important; 
 } 
@@ -294,7 +284,7 @@ input#submitBtn {
   
 ::-ms-input-placeholder { /* Microsoft Edge */ 
     color: grey !important;  
-} 
+}
 
 
 
