@@ -3,7 +3,7 @@
 * Plugin Name: Tilmeld Plugin
 * Plugin URI: http://storyscaping.annesofiepedersen.com/
 * Description: This is a signup plugin based on HTML5, CSS, JS and PHP
-* Version: 2.9.8
+* Version: 2.9.9
 * Author: Majken Iversen, Cecilie Thierry, Anne Sofie Pedersen og Monica Strandgaard Petersen
 * Author: http://storyscaping.annesofiepedersen.com/
 * License: GPL2
@@ -13,19 +13,17 @@ function newsletter_form()
 {
 
     $content = '';
-    $content .= '<div class="login-form">';
-    $content .= '<div class="popupCloseButton">X</div>';
+    $content .= '<div id="login-form">';
+    $content .= '<div id="popupCloseButton">X</div>';
     $content .= '<div class="login-face">';
-    $content .= '<img src=" '.plugins_url("tilmeld-plugin/img/bog-billede.png").' " ';
-    $content .= 'alt="login-face"></div>';
+    $content .= '<img src=" '.plugins_url("tilmeld-plugin/img/luftballonstor.png").' " ';
+    $content .= 'id="luftballon" alt="login-face"></div>';
     $content .= '<div id="promotion-header">';
     $content .= '<h1 id="promotion-header-title">Bliv lokal guide for Truestory</h1></div>';
     $content .= '<section class="form">';
     $content .= '<form action="#">';
-    $content .= '<div id="promotion-body">';
-    $content .= '<p id="promotion-body-text">Er der en guide gemt i maven på dig? Brænder du inde med en masse tips og idéer til, hvad man kan opleve i din by? Så har vi brug for dig - meld dig som lokal guide hos Truestory og få muligheden for at udleve din indre guide! 
-<br>Udfyld felterne nedenfor, så kontakter vi dig.
-</p>';
+  	$content .= '<div id="promotion-body">';
+    $content .= '<p id="promotion-body-text">Ønsker du at melde dig som lokal guide, så skriv lidt om dig selv her, så vender vi tilbage.</p>';
     $content .= '</div>';
     $content .= '<div class="input">';
     $content .= '<input type="text" id="username" placeholder="Dit navn" name="username" required><i class="fa fa-user fa-1x"></i>';
@@ -33,11 +31,14 @@ function newsletter_form()
     $content .= '<div class="input">';
     $content .= '<input type="email" id="email" placeholder="Din email" name="email" required><i class="fa fa-envelope fa-1x"></i>';
     $content .= '</div>';
-    $content .= '<div id="submitForm">';
-    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Tilmeld mig!">';
+  	$content .= '<div class="input">';
+    $content .= '<input type="text" id="city" placeholder="Din by" name="city" required><i class="fa fa-university fa-1x"></i>';
     $content .= '</div>';
-    $content .= '<div id="promotion-footer">';
-    $content .= '<p id="promotion-footer-text">Yes, I would like to receive I FORM\'s newsletter with exciting articles as well as marketing about I FORM via e-mail. You can unsubscribe at any time. Read more!</p>';
+   	$content .= '<div class="input">';
+    $content .= '<input type="text" id="about" placeholder="Skriv lidt om dig selv her" name="about" required><i class="fa fa-pencil fa-1x"></i>';
+    $content .= '</div>';
+    $content .= '<div id="submitForm">';
+    $content .= '<input type="submit" id="submitLuftballonBtn" name="submitLuftballonBtn" value="Tilmeld mig!">';
     $content .= '</div>';
     $content .= '</form>';
     $content .= '</section>';
