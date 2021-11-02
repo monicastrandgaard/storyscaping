@@ -11,3 +11,19 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
+
+a#popup_button {
+    background-color: #fff;
+    color: #6e539e;
+    border-color: #6e539e;
+    border-width: 2px;
+    border-style: solid;
+}
+
+a#popup_button:hover {
+background-color: #fff;
+    color: #3b2268;
+    border-color: #3b2268;
+    border-width: 2px;
+    border-style: solid;
+}
