@@ -105,15 +105,16 @@ input[type="email"]:focus
 }
 
 input[type="submit"] {
-    width: 52%;
+    width: 40%;
     height: 45px;
-    background: #ee6637 !important;
     font-family: 'Roboto', sans-serif;
     font-size: 14px !important;
-    border-radius: 12px;
     float: right;
-    color: #000000;
-    border-color: #000000;
+    background-color: #fff;
+    color: #6e539e;
+    border-color: #6e539e;
+    border-width: 2px;
+    border-style: solid;
 }
 
 button,
