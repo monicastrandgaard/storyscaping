@@ -27,3 +27,13 @@ background-color: #fff;
     border-width: 2px;
     border-style: solid;
 }
+
+/* Margin på tekststykker på forsiden*/
+
+.elementor-element.elementor-element-8e31f7c.elementor-widget.elementor-widget-text-editor {
+    margin-top: 75 px;
+}
+
+section.elementor-section.elementor-top-section.elementor-element.elementor-element-485573f.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+    padding: 0 220 px 0 220 px;
+}
