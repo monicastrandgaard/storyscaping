@@ -40,9 +40,12 @@ body
 
 /* Styling af luftballonen */ 
 
-img{
-  width: 100%;
-  height: auto;
+img#luftballon {
+  max-width: 15em;
+  max-height: 40em;
+  margin-top: -80px;
+  position: absolute;
+  right: 10px;
 }
 
 .login-face>img {
