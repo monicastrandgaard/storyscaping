@@ -303,3 +303,13 @@ input#submitBtn {
 ::-ms-input-placeholder { /* Microsoft Edge */ 
     color: grey !important;  
 } 
+
+
+/* Her bliver ballon img i pluginnet designet */
+
+img {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
