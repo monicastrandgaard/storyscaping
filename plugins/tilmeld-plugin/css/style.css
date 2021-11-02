@@ -200,20 +200,12 @@ input#submitBtn {
     width: 50%;
 }
 
+/* Her ændres udseende på krydsknappen */
+
 .popupCloseButton {
-    background-color: #fff;
-    border: 2px solid pink;
-    border-radius: 30px;
-    cursor: pointer;
-    font-family: Montserrat, sans-serif;
-    position: absolute;
-    top: -20px;
-    right: -15px;
-    font-size: 20px;
-    line-height: 26px;
-    width: 40px;
-    height: 30px;
-    text-align: center;
+    margin: 40px;
+    background-color: transparent;
+    border: none;
 }
 
 .error-msg 
@@ -305,12 +297,5 @@ input#submitBtn {
 } 
 
 
-/* Her ændres udseende på krydsknappen */
-
-.popupCloseButton {
-    margin: 40px;
-    background-color: transparent;
-    border: none;
-}
 
 
