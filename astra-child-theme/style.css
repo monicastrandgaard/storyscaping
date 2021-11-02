@@ -5,7 +5,7 @@
  Author:       Anne Sofie Pedersen, Cecilie Thierry, Monica Strandgaard, Majken Iversen
  Author URI:   http://storyscaping.annesofiepedersen.com
  Template:     astra
- Version:      1.0.5
+ Version:      1.0.7
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -24,6 +24,43 @@ a#popup_button {
 }
 
 a#popup_button:hover {
+	background-color: #fff;
+    color: #e00057;
+    border-color: #e00057;
+    border-width: 1px;
+  	border: solid;
+  	border-radius: 20px 20px;
+}
+
+a#seflere_button{
+    color: #fff;
+    background-color: #e00057;
+    border-width: 1px;
+    border-color: #e00057;
+  	border: solid;
+    border-radius: 20px 20px;
+  	margin-top: 30px;
+}
+
+a#seflere_button:hover{
+  background-color: #fff;
+    color: #e00057;
+    border-color: #e00057;
+    border-width: 1px;
+  	border: solid;
+  	border-radius: 20px 20px;
+}
+
+a#back_button {
+    color: #fff;
+    background-color: #e00057;
+    border-width: 1px;
+    border-color: #e00057;
+  	border: solid;
+    border-radius: 20px 20px;
+}
+
+a#back_button:hover {
 	background-color: #fff;
     color: #e00057;
     border-color: #e00057;
