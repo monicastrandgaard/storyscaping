@@ -46,7 +46,32 @@ body
     	margin-top: -80px;
     	position: absolute;
     	right: 10px;
+	
+	width: 200px;
+   	height: 200px;
+    	background-color: #35D857;
+    	border-radius: 100%;
+    	margin: 20% auto;
+    
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out; 
+    -moz-animation: bounce 3s infinite ease-in-out; 
+    animation: bounce 3s infinite ease-in-out;	
 }
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
 
 /* Styling af input og tekst */ 
 
