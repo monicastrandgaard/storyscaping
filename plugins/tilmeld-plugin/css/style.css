@@ -42,10 +42,10 @@ body
 
 #luftballon{
 	max-width: 15em;
-  	max-height: 3em;
-  	position: absolute;
-	top: 210px;
-	right: 90px;
+   	max-height: 38em;
+    	margin-top: -80px;
+    	position: absolute;
+    	right: 10px;
 }
 
 /* Styling af input og tekst */ 
@@ -118,12 +118,18 @@ input[type="submit"] {
     border-color: #6e539e;
     border-width: 2px;
     border-style: solid;
+	max-width: 15em;
+  	max-height: 3em;
+  	position: absolute;
+	top: 210px;
+	right: 90px;
 }
 
 button,
 input[type="button"],
 input[type="submit"] {
 	padding: 0 1em !important;
+	
 
 }
 
