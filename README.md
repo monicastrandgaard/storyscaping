@@ -11,24 +11,23 @@ Vi har desuden tegnet en luftballon som vises når plug-innet kommer frem. Vores
 
 ***
 
-## Download the repository from GitHub.com 
-Download det repository, som hedder **wordpress-newsletterplugin-main** til din computer.
+## Vi downloadede et repository fra GitHub.com 
+Vi har downloadet det repository, som hedder **wordpress-newsletterplugin-main** til vores computer.
 
-## Unzip dette repository
-Efter at have downloadet dette repository **wordpress-newsletterplugin-main** til din computer, skal du unzippe zip filen og du vil få en mappe, der hedder **wordpress-newsletterpluginn-main**
+## Vi unzippede dette repository
+Efter at have downloadet dette repository **wordpress-newsletterplugin-main** til vores computer, unzippede vi zip filen og havde dermed en mappe, der hed **wordpress-newsletterplugin-main**
 
-## Omdøb mappe
-Derefter skal du omdøbe mappen til **tilmeld-plugin**
-Husk du også skal ændre titlen alle andre steder, hvor der står ''newsletterplugin''. 
+## Vi omdøbte mappen
+Derefter omdøbte vi mappen til **tilmeld-plugin**
 
-## Kopier mappen ind i din WordPress wp-content/plugins mappe
-Kopier din **tilmeld-plugin** mappe og indsæt den i dit wordpress root-directory --> wp-content --> **plugins**
+## Vi kopierede mappen ind i vores WordPress wp-content/plugins mappe
+Vi kopiererde derefter **tilmeld-plugin** mappe og indsatte den i vores wordpress root-directory --> wp-content --> **plugins**
 
-## Gå til dit WordPress Dashboard og aktiver dit plugin
-Log ind på dit WordPress Dashboard og tryk på plugin i menuen. Her skal du aktivere dit nye plugin. - **tilmeld-plugin Plugin**.
+## Vi gik ind på vores WordPress Dashboard og aktiverede vores plugin
+Vi loggede ind på vorers WordPress Dashboard og trykkede på plugin i menuen. Her aktiverede vi vores nye plugin. - **tilmeld-plugin Plugin**.
 
-## Indsæt dit plugin
-Gå til din WordPress side og vælg, hvor dit plugin skal indsættes. Tilføj denne shortcode på det valgte sted - **[show_newsletter]** (dette er stadig newsletter, da vi ikke har ændret det i vores PHP fil). 
+## Vi indsatte vores plugin
+Vi gik derefter til vores WordPress side og valgte, hvor dette plugin skulle indsættes. Vi tilføjede denne shortcode på det valgte sted - **[show_newsletter]** (dette er stadig newsletter, da vi ikke har ændret det i vores PHP fil). 
 
-## Besøg siden
-Du kan nu se din plugin på din side. 
+## Vi besøgte siden
+Vi kunne derefter se vores plugin, hvor vi havde indsat vores shortcode. 
