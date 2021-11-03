@@ -42,10 +42,10 @@ body
 
 #luftballon{
 	max-width: 15em;
-  	max-height: 38em;
-  	margin-top: -80px;
+  	max-height: 3em;
   	position: absolute;
-  	right: 10px;
+	top: 210px;
+	right: 90px;
 }
 
 /* Styling af input og tekst */ 
