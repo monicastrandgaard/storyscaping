@@ -28,7 +28,7 @@ Kopier din **tilmeld-plugin** mappe og indsæt den i dit wordpress root-director
 Log ind på dit WordPress Dashboard og tryk på plugin i menuen. Her skal du aktivere dit nye plugin. - **tilmeld-plugin Plugin**.
 
 ## Indsæt dit plugin
-Gå til din WordPress side og vælg, hvor dit plugin skal indsættes. Tilføj denne shortcode på det valgte sted - **[show_tilmeld-plugin]**
+Gå til din WordPress side og vælg, hvor dit plugin skal indsættes. Tilføj denne shortcode på det valgte sted - **[show_newsletter]**
 
 ## Besøg siden
 Du kan nu se din plugin på din side. 
