@@ -7,7 +7,7 @@ Vi har desuden tegnet en luftballon som vises når plug-innet kommer frem. Vores
 
 # WordPress-tilmeld-plugin
 
-![Chocolate Chip Cookies](screenshot.png)
+![Ballon Plugin](ballon.png)
 
 ***
 
