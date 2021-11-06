@@ -84,7 +84,6 @@ input[type="about"]
 
 .fa
 {
-    position: center;
     right: 5px;
     top: 0px;
     padding-top: 12px;
@@ -351,6 +350,5 @@ input#submitBtn {
      50% { transform: translateY(10px) }
      100% { transform: translateY(-5px) }
 }
-
 
 
