@@ -3,7 +3,7 @@
 * Plugin Name: Tilmeld Plugin
 * Plugin URI: http://storyscaping.annesofiepedersen.com/
 * Description: This is a signup plugin based on HTML5, CSS, JS and PHP
-* Version: 2.9.9
+* Version: 3.0.2
 * Author: Majken Iversen, Cecilie Thierry, Anne Sofie Pedersen og Monica Strandgaard Petersen
 * Author: http://storyscaping.annesofiepedersen.com/
 * License: GPL2
@@ -69,7 +69,6 @@ function newsletter_form()
         
         wp_enqueue_script('CustomScript', plugins_url('tilmeld-plugin/js/script.js'), array('jquery'), null, true);
     }
-
 
 
 
